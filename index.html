@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie List</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <section class="container">
+
+        <!-- =============== Header ================= -->
+        <header class="header">
+            <h2 style="padding: 12px;">Popular Movies</h2>
+        </header>
+
+        <section class="container-side-main">
+            <!-- =============== sidebar =============== -->
+            <div class="sidebar">
+                
+                <article class="article-sidebar">
+                    <div style="display: flex; justify-content: space-between;">
+                        <h3>Sort</h5>
+                       
+                    </div>
+                    <!-- <hr/> -->
+                    <p style="margin-top: 5%;">Sort Results By</p>
+                    <button onclick="asc()" type="button" style="cursor: pointer; border: 0px;" class="container-popular-desc" >
+                        <p class="text-popularity">Popularity Descending</p>
+                        <img src="./img/arrow2.png" alt="" width="8%" class="image-arrow">
+                    </button>
+
+                </article>
+
+            </div>
+
+            <!-- =============== main =============== -->
+            <main class="main"></main>
+        </section>
+
+
+
+    </section>
+
+
+
+
+<script src="./script.js"></script>
+</body>
+</html>
